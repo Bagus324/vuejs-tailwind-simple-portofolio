@@ -42,4 +42,4 @@ Start the server
 
 ## Demo
 
-Link: [Demo](https://vuejs-tailwind-simple-portofolio-5dphptdaz.vercel.app/)
+Link: [Demo](https://vuejs-tailwind-simple-portofolio.vercel.app/)
