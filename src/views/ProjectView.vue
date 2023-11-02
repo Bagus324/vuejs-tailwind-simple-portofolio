@@ -6,8 +6,8 @@
         <div v-if="error" class="text-red-500 text-center">{{ error }}</div>
         <div v-for="(project, index) in projects" :key="project.id">
             <a :href="project.html_url" target="_bl">
-                <div class="bg-blue-300 mb-4 p-2 rounded-md shadow-md">
-                    <h2 class="font-bold text-xl">{{ ++index }} {{ project.name }}</h2>
+                <div class="bg-blue-300 mb-5 p-2 rounded-md shadow-md">
+                    <h2 class="font-bold text-xl">{{ ++index }}. {{ project.name }}</h2>
                     <p>{{ project.description }}</p>
                 </div>
             </a>
